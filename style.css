@@ -332,24 +332,18 @@ ul li a {
 .color {
     padding-top:10px;
 }
-    .ssalc {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 10px;
-  justify-content: center;
-  padding: 20px;
-}
+    
 
 .ssalc img {
-  width: 100%;
+  width: 150px;
   height: auto;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
+padding:10px;
 }
 
-.ssalc img:hover {
-  transform: scale(1.1);
-}10px;
+.hover:hover{
+    transform: scale(1.2);
+    transition:2s;
+}
 
 
 .color p {
