@@ -305,16 +305,7 @@ ul li a {
     display: flex;
 }
 
-.ssalc img {
-    width: 150px;
-    height: 150px;
-    padding: 10px;
-}
 
-.hover:hover {
-    transform: scale(1.2);
-    transition: 2s;
-}
 
 .gcrs {
     display: flex;
@@ -339,8 +330,27 @@ ul li a {
 }
 
 .color {
-    padding-top: 10px;
+    padding-top:10px;
 }
+    .ssalc {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.ssalc img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.ssalc img:hover {
+  transform: scale(1.1);
+}10px;
+
 
 .color p {
     width: 200px;
@@ -353,6 +363,7 @@ ul li a {
 .star {
     background-color: rgb(228, 180, 163);
     border-radius: 10px;
+    margin-left:100px;
 }
 
 .display {
