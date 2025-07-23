@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     width: 100%
+    overflow: auto;
 }
 
 .omini-logo {
@@ -17,7 +18,8 @@
 
 .nav-omini {
     background-color: rgb(228, 180, 163);
-    width: 100%;
+    width: auto;
+    justify-content: center;
 }
 
 .omini1-button button {
