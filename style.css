@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* width: 100%; */
 }
 
 .omini-logo {
@@ -16,7 +17,7 @@
 
 .nav-omini {
     background-color: rgb(228, 180, 163);
-    width:100%;
+    width: 100%;
 }
 
 .omini1-button button {
@@ -305,7 +306,16 @@ ul li a {
     display: flex;
 }
 
+.ssalc img {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
 
+.hover:hover {
+    transform: scale(1.2);
+    transition: 2s;
+}
 
 .gcrs {
     display: flex;
@@ -330,21 +340,8 @@ ul li a {
 }
 
 .color {
-    padding-top:10px;
+    padding-top: 10px;
 }
-    
-
-.ssalc img {
-  width: 150px;
-  height: auto;
-padding:10px;
-}
-
-.hover:hover{
-    transform: scale(1.2);
-    transition:2s;
-}
-
 
 .color p {
     width: 200px;
@@ -355,9 +352,9 @@ padding:10px;
 }
 
 .star {
-    background-color: rgb(228, 180, 163);
+    background-color: rgb(128, 106, 98);
     border-radius: 10px;
-    margin-left:100px;
+    margin-left: 100px;
 }
 
 .display {
@@ -579,7 +576,8 @@ h2 {
 body {
     text-align: center;
     /* width: 100%; */
-    background-color:rgb(228, 180, 163);
+    background-color: rgb(228, 180, 163);
+    width: 100%;
 }
 
 
