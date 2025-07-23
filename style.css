@@ -699,144 +699,51 @@ body {
 
 /* /* Extra small devices (phones, 0–600px) */
 
-@media only screen and (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
-    .navbar,
-    .omini-logo,
-    .a,
-    .al,
-    .tell,
-    .iter,
-    .gcrs,
-    .display,
-    .peryear,
-    .ypo {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .menu {
-        flex-direction: column;
-        width: 100%;
-    }
-    .navbar a,
-    .menu a {
-        padding: 10px 0;
-    }
-    .omini1-list ul {
-        flex-direction: column;
-    }
-    .omini1-button {
-        margin-top: 10px;
-    }
-    .hea h1,
-    .hea p,
-    .tell h1,
-    .tell p,
-    .anyd h1 {
-        width: 90%;
-        font-size: 1.2rem;
-    }
-    img {
-        max-width: 90%;
-        height: auto;
-    }
-    .circle {
-        width: 250px;
-        height: 250px;
-    }
-    .circle-box img {
-        margin-top: -300px;
-        margin-left: 20px;
-    }
-    .noit {
-        flex-direction: column;
-        margin: 20px;
-    }
-    .noit input,
-    .tpo,
-    .won button {
-        width: 90%;
-        padding: 15px;
-        margin-left: 0;
-    }
-    .mgi img {
-        width: 100%;
-        height: auto;
-    }
-} */
+/* Universal responsive tweaks */
+@media (max-width: 768px) {
+  .iter,
+  .gcrs,
+  .display,
+  .peryear,
+  .ypo,
+  .two {
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .tell,
+  .a,
+  .navbar,
+  .omini-logo {
+    flex-direction: column;
+    text-align: center;
+  }
 
-/* Mobile (up to 600px) */
+  img {
+    width: 100%;
+    height: auto;
+  }
 
-@media (max-width: 600px) {
-    body {
-        font-size: 16px;
-    }
-    .navbar,
-    .omini-logo,
-    .a,
-    .tell,
-    .iter,
-    .display,
-    .gcrs,
-    .peryear,
-    .ypo,
-    .al {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .hea h1,
-    .hea p,
-    .tell h1,
-    .tell p,
-    .anyd h1,
-    .vegi h3,
-    .iter h3 {
-        width: 90%;
-        margin: 0 auto 20px;
-    }
-    img,
-    .circle {
-        max-width: 90%;
-        height: auto;
-    }
-    .circle {
-        width: 200px;
-        height: 200px;
-    }
-    .noit {
-        flex-direction: column;
-        margin: 20px;
-    }
-    .noit input,
-    .tpo,
-    .won button {
-        width: 90%;
-        margin: 10px 0;
-    }
-    .mgi img {
-        width: 100%;
-        height: auto;
-    }
+  .hea h1,
+  .hea p,
+  .tell p {
+    width: 90%;
+  }
+
+  .noit {
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .noit input,
+  .tpo,
+  .won button {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .mgi img {
+    width: 100%;
+    height: auto;
+  }
 }
-
-
-/* @media(max-width:786px){
-    body{
-        font-size:16px;
-        background-color:#f0f0f0;
-    }
-    img{
-        width:100%;
-        height:auto;
-    }
-    .container{
-        padding:10px;
-    }
-
-}
- */
