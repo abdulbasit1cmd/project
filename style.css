@@ -1,278 +1,99 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    /* width: 100%; */
-}
+/* =======================
+   Responsive Media Queries
+========================== */
 
-.omini-logo {
-    display: flex;
-    justify-content: space-around;
+/* Mobile Phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .hea h1, .hea p, .tell h1, .tell p {
+    width: 90%;
+    font-size: 1.2rem;
+    margin: auto;
+  }
+
+  .a, .tell, .iter, .AS .src, .gcrs, .sut, .ypo {
+    flex-direction: column;
     align-items: center;
-}
+  }
 
-.omini1-list a {
-    color: rgb(3, 3, 29);
-}
+  .circle {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+  }
 
-.nav-omini {
-    background-color: rgb(228, 180, 163);
-    width: 100%;
-}
+  .display {
+    flex-direction: column;
+    margin: 0 auto;
+  }
 
-.omini1-button button {
-    background-color: orangered;
-    color: white;
-    padding: 20px 40px;
-    border-radius: 10px;
-    font-size: 20px;
-}
-
-ul li {
-    list-style: none;
-    display: flex inline;
+  .noit {
+    flex-direction: column;
     margin: 20px;
+    padding: 20px;
+  }
+
+  .mgi {
+    margin: 20px auto;
+  }
+
+  .imgp img {
+    width: 100%;
+  }
+
+  .pricing-grid {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* Tablets (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .a, .tell, .iter, .AS .src, .gcrs, .sut {
+    flex-direction: column;
     align-items: center;
-    padding-left: 10px;
+  }
+
+  .display {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .noit {
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .imgp img {
+    width: 100%;
+  }
+
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }
 
-ul li a {
-    text-decoration: none;
-    color: rgb(236, 80, 80);
-}
+/* Desktops (769px and up) */
+@media (min-width: 769px) {
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
 
-.hea h1 {
-    font-size: 50px;
-    width: 500px;
-}
-
-.hea p {
-    font-size: 20px;
-    width: 500px;
-    color: white;
-}
-
-.a {
-    /* margin-left: 40px; */
-    padding-top: 50px;
+  .display {
     display: flex;
-    justify-content: space-around;
-}
+    justify-content: center;
+    gap: 50px;
+  }
 
-.al {
+  .iter {
     display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
+    justify-content: center;
+    gap: 40px;
+  }
 }
-
-.al .lt {
-    background-color: red;
-    font-weight: 20px;
-}
-
-.al .th {
-    background-color: white;
-    margin-left: -25%;
-}
-
-.al .lt a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.al .th a {
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.al .lt button {
-    border: 1px solid white;
-}
-
-.al button {
-    padding: 10px 20px;
-    border-radius: 10px;
-    /* margin-left: -50px; */
-}
-
-.AS {
-    background-color: rgb(243, 247, 247);
-    padding-bottom: 40px;
-}
-
-.AS .src {
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.AS p {
-    text-align: center;
-    padding-top: 20px;
-}
-
-.how {
-    margin-bottom: 200px;
-}
-
-.how .h3 {
-    margin-top: 70px;
-    margin-left: 200px;
-    color: orange;
-}
-
-.how .ruo {
-    padding-right: 350px;
-    font-size: 35px;
-}
-
-.tell h1 {
-    width: 500px;
-    font-size: 30px;
-}
-
-.tell p {
-    width: 500px;
-    font-size: 20px;
-}
-
-.tell {
-    /* margin-top: 100px; */
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 180px;
-}
-
-.br {
-    margin-top: 150px;
-}
-
-.br span {
-    color: gray;
-}
-
-.circle {
-    width: 400px;
-    height: 350px;
-    background-color: burlywood;
-    border: 10px solid orangered;
-    border-radius: 50%;
-}
-
-.circle-box img {
-    margin-top: -450px;
-    margin-left: 55px;
-}
-
-.two {
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    /* margin: 30px; */
-}
-
-.two span {
-    color: orange;
-}
-
-.profile {
-    margin-left: -10px;
-}
-
-.whaty {
-    font-size: 30px;
-}
-
-.vegi {
-    font-family: Arial, sans-serif;
-    border: 1px solid white;
-    border-bottom-right-radius: 10px;
-    background-color: white;
-    /* margin-right: 925px; */
-    margin-left: 30px;
-    border-bottom-left-radius: 10px;
-    box-shadow: 40px;
-}
-
-.iter {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-}
-
-.iter h3 {
-    width: 170px;
-    line-height: 2;
-    text-align: center;
-    padding-left: 80px;
-}
-
-.iter img {
-    width: 200x;
-    height: 200px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    margin-left: 30px;
-}
-
-.MEALS h2 {
-    text-align: center;
-    color: orange;
-}
-
-.MEALS h1 {
-    text-align: center;
-    font-size: 50px;
-}
-
-.MEALS {
-    margin-top: 100px;
-}
-
-.anyd h1 {
-    font-size: 30px;
-    text-align: center;
-}
-
-.anyd li {
-    font-size: 20px;
-    line-height: 2.2;
-    list-style: none;
-}
-
-.vegi button {
-    background-color: rgb(123, 179, 123);
-    border-radius: 20px;
-    margin-left: 20px;
-    margin-top: 30px;
-}
-
-.vegi .pale {
-    background-color: orange;
-}
-
-.vegi .nott {
-    /* margin-top: 10px; */
-    margin-left: 20px;
-}
-
-.seea {
-    text-align: center;
-    padding-top: 60px;
-}
-
-.AS a {
-    color: orange;
-    font-size: 25px;
-    padding-top: 100px;
-}
-
-.gcrs p {
-    width: 300px;
-    font-size: 20px;
-    line-height: 1.5;
 }
 
 .srcg {
