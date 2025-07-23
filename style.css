@@ -19,6 +19,7 @@ color: rgb(3, 3, 29);
 .nav-omini {
 background-color: rgb(228, 180, 163);
 width: 100%;
+justify-content: center;
 }
 
 .omini1-button button {
