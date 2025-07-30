@@ -707,6 +707,7 @@ body {
 @media only screen and (max-width: 600px) {
     body {
         font-size: 14px;
+        justify-content:center;
     }
     .navbar,
     .omini-logo,
@@ -781,6 +782,7 @@ body {
         font-size: 16px;
         width: auto;
         height: auto;
+        justify-content: center;
     }
     .navbar,
     .omini-logo,
