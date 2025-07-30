@@ -19,7 +19,8 @@ color: rgb(3, 3, 29);
 
 .nav-omini {
 background-color: rgb(228, 180, 163);
-width: 100%;
+width:auto;
+height:auto;
 justify-content: center;
 }
 
@@ -578,9 +579,9 @@ border: none;
 
 body {
 text-align: center;
-/* width: 100%; */
 background-color: rgb(228, 180, 163);
-width: 100%;
+width:auto;
+height:auto;
 }
 
 /* .omini-1 {
