@@ -342,27 +342,27 @@ ul li a {
 }
 
 .color {
-    padding-top: 10px;
+    padding-top: 7px;
 }
 
 .color p {
-    width: 200px;
+    width: 100px;
 }
 
 .star p {
-    width: 180px;
+    width: 70px;
 }
 
 .star {
     background-color: rgb(128, 106, 98);
     border-radius: 10px;
-    margin-left: 10px;
+    margin-left: 8px;
 }
 
 .display {
     display: flex;
     text-align: center;
-    margin-left: 150px;
+    margin-left: 80px;
     justify-content:center;
 }
 
@@ -389,8 +389,8 @@ ul li a {
 .display button {
     background-color: rgba(248, 163, 5, 0.884);
     padding: 10px;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     border-radius: 8px;
 }
 
@@ -400,7 +400,7 @@ ul li a {
 
 .cir {
     /* background-color: orangered; */
-    margin-right: 150px;
+    margin-right: 100px;
 }
 
 .al .th {
@@ -408,8 +408,8 @@ ul li a {
 }
 
 .color button {
-    margin-left: 10px;
-    padding-right: -30px;
+    margin-left: 7px;
+    padding-right: -20px;
 }
 
 .color {
@@ -832,5 +832,6 @@ body {
         height: auto;
     }
 }
+
 
 
