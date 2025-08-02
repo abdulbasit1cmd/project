@@ -356,14 +356,14 @@ ul li a {
 .star {
     background-color: rgb(128, 106, 98);
     border-radius: 10px;
-    margin-left: 60px;
+    margin-left: 10px;
 }
 
 .display {
     display: flex;
-    /* justify-content: space-around; */
     text-align: center;
-    margin-left: 300px;
+    margin-left: 150px;
+    justify-content:center;
 }
 
 .color {
@@ -832,4 +832,5 @@ body {
         height: auto;
     }
 }
+
 
