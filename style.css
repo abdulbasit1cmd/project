@@ -350,13 +350,13 @@ ul li a {
 }
 
 .star p {
-    width: 200px;
+    width: 180px;
 }
 
 .star {
     background-color: rgb(128, 106, 98);
     border-radius: 10px;
-    margin-left: 100px;
+    margin-left: 60px;
 }
 
 .display {
@@ -832,3 +832,4 @@ body {
         height: auto;
     }
 }
+
