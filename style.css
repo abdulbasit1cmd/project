@@ -343,10 +343,11 @@ ul li a {
 
 .color {
     padding-top: 7px;
+    padding-right:-10px;
 }
 
 .color p {
-    width: 70px;
+    width: 60px;
 }
 
 .star p {
@@ -356,13 +357,12 @@ ul li a {
 .star {
     background-color: rgb(128, 106, 98);
     border-radius: 10px;
-    margin-left: 4px;
 }
 
 .display {
     display: flex;
     text-align: center;
-    margin-left: 60px;
+    margin-left: 45px;
     justify-content:center;
 }
 
@@ -372,13 +372,13 @@ ul li a {
 }
 
 .display .per {
-    width: 300px;
+    width: 250px;
     line-height: 2;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .display .day {
-    width: 150px;
+    width: 120px;
     line-height: 2;
 }
 
@@ -400,7 +400,7 @@ ul li a {
 
 .cir {
     /* background-color: orangered; */
-    margin-right: 80px;
+    margin-right: 60px;
 }
 
 .al .th {
@@ -832,6 +832,7 @@ body {
         height: auto;
     }
 }
+
 
 
 
